@@ -1,0 +1,23 @@
+bash script
+
+[] cpp initial checks
+[] python eigenvalues check
+
+if at leat one succedes:
+	[] cpp implementations
+else:
+	print "divergent"
+
+// return values meanings
+0 - converges								(cpp)
+1 - diverges, omega not in (0, 2)			(cpp)
+2 - incorrect input, 0s on main diagonal	(cpp)
+3 - A symmetric and not positive-definite	(cpp)
+4 - non SPD
+5 - eigenvalues do not satisfy condition	(python)
+
+// file structure
+omega
+n
+matrix A
+vector B
